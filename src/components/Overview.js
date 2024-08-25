@@ -1,5 +1,5 @@
 import React from "react";
-import OverviewImage from "../images/overview.png"; // Replace with your actual image path
+import OverviewImage from "../images/overview.png";
 
 const OverviewSection = () => {
   return (

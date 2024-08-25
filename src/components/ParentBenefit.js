@@ -6,9 +6,8 @@ import {
   FaShieldAlt,
   FaUserMd,
 } from "react-icons/fa";
-import Side from "../images/side1.png"; // Replace with your actual image path
-import Phone from "../images/phone img.png"; // Replace with your actual image path
-import Signal from "../images/signal lines.png"; // Replace with your actual image path
+import Side from "../images/side1.png";
+import Phone from "../images/phone img.png";
 
 const ParentBenefit = () => {
   return (
@@ -16,12 +15,12 @@ const ParentBenefit = () => {
       {/* Left Side */}
       <div className="w-full md:w-1/2">
         <h2 className="text-4xl font-bold text-black mb-4">
-          The <span className="text-sky-500">Benefits</span> of Utilizing Webapp
+          The <span className="text-sky-400">Benefits</span> of Utilizing Webapp
           for Patient
         </h2>
         <ul className="space-y-8">
           <li className="flex items-start">
-            <div className="w-12 h-12 flex items-center justify-center bg-sky-500 rounded-full text-white mr-4">
+            <div className="w-12 h-12 flex items-center justify-center bg-sky-400 rounded-full text-white mr-4">
               <FaCheckCircle className="text-2xl" />
             </div>
 
@@ -33,7 +32,7 @@ const ParentBenefit = () => {
             </div>
           </li>
           <li className="flex items-start">
-            <div className="w-12 h-12 flex items-center justify-center bg-sky-500 rounded-full text-white mr-4">
+            <div className="w-12 h-12 flex items-center justify-center bg-sky-400 rounded-full text-white mr-4">
               <FaHeartbeat className="text-2xl" />
             </div>
 
@@ -45,7 +44,7 @@ const ParentBenefit = () => {
             </div>
           </li>
           <li className="flex items-start">
-            <div className="w-12 h-12 flex items-center justify-center bg-sky-500 rounded-full text-white mr-4">
+            <div className="w-12 h-12 flex items-center justify-center bg-sky-400 rounded-full text-white mr-4">
               <FaStethoscope className="text-2xl" />
             </div>
 
@@ -57,7 +56,7 @@ const ParentBenefit = () => {
             </div>
           </li>
           <li className="flex items-start">
-            <div className="w-12 h-12 flex items-center justify-center bg-sky-500 rounded-full text-white mr-4">
+            <div className="w-12 h-12 flex items-center justify-center bg-sky-400 rounded-full text-white mr-4">
               <FaShieldAlt className="text-2xl" />
             </div>
 
@@ -69,7 +68,7 @@ const ParentBenefit = () => {
             </div>
           </li>
           <li className="flex items-start">
-            <div className="w-12 h-12 flex items-center justify-center bg-sky-500 rounded-full text-white mr-4">
+            <div className="w-12 h-12 flex items-center justify-center bg-sky-400 rounded-full text-white mr-4">
               <FaUserMd className="text-2xl" />
             </div>
 
@@ -83,27 +82,18 @@ const ParentBenefit = () => {
         </ul>
       </div>
 
-      {/* Image Divider */}
-      <div className="hidden md:block mx-10">
-        <img
-          src={Signal}
-          alt="Divider Image"
-          className="h-96 w-auto object-contain"
-        />
-      </div>
-
       {/* Right Side */}
       <div className="w-full md:w-1/2 flex justify-center items-center relative">
         {/* Bottom Image */}
         <img
           src={Side}
-          alt="Bottom Image"
+          alt="Bottom "
           className="w-4/5 md:w-3/4 h-auto object-contain"
         />
         {/* Top Image */}
         <img
           src={Phone}
-          alt="Top Image"
+          alt="Top"
           className="absolute top-[8%] left-[25%] w-2/3 md:w-3/5 h-auto object-contain "
         />
       </div>
