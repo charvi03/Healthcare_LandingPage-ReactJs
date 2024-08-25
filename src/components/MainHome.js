@@ -9,7 +9,7 @@ const MainHome = () => {
       <div className="w-full md:w-1/2 mb-8 md:mb-0">
         <h1 className="text-3xl md:text-4xl font-bold text-black eading-tight">
           Empowering Clinics to Scale New Heights in{" "}
-          <span className="text-sky-500">Healthcare.</span>
+          <span className="text-sky-400">Healthcare.</span>
         </h1>
         <p className="mt-4 text-gray-700">
           Discover a seamless, efficient, and user-friendly platform designed to
@@ -17,7 +17,7 @@ const MainHome = () => {
           the best care possible. Join us in transforming the future of
           healthcare Inday.
         </p>
-        <button className="mt-6 bg-sky-500 text-white py-2 px-6 rounded hover:bg-sky-600">
+        <button className="mt-6 bg-sky-300 text-white py-2 px-6 rounded hover:bg-sky-500">
           Get Started
         </button>
       </div>

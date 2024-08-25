@@ -22,7 +22,7 @@ const OverviewSection = () => {
           hac habitasse platea dictumst. Vivamus lacinia vehicula felis, sit
           amet feugiat arcu congue a.
         </p>
-        <button className="mt-6 bg-sky-500 text-white py-2 px-6 rounded hover:bg-sky-600">
+        <button className="mt-6 bg-sky-300 text-white py-2 px-6 rounded hover:bg-sky-500">
           Learn More About Us
         </button>
       </div>

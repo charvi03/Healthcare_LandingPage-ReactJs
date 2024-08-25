@@ -7,6 +7,8 @@ import ParentBenefit from "./components/ParentBenefit";
 import SliderSection from "./components/SliderSection";
 import GetApp from "./components/GetApp";
 import ContactSection from "./components/ContactSection";
+import Questions from "./components/Questions";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <SliderSection />
       <GetApp />
       <ContactSection />
+      <Questions />
+      <Footer />
     </div>
   );
 }
