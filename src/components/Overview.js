@@ -3,7 +3,7 @@ import OverviewImage from "../images/overview.png";
 
 const OverviewSection = () => {
   return (
-    <div className="container mx-auto px-8 py-8 flex flex-col-reverse md:flex-row items-center justify-between bg-blue-50">
+    <div className="container mx-auto px-8 py-8 flex flex-col-reverse md:flex-row items-center justify-between bg-sky-50">
       {/* Left Side */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
