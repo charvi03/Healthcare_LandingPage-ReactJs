@@ -20,7 +20,7 @@ const CustomDropdown = () => {
   return (
     <div className="relative">
       <button
-        className="block w-full border border-gray-300 rounded-md bg-gray-100 p-2 text-gray-700 text-left items-center justify-between"
+        className="w-full border border-gray-300 rounded-md bg-gray-100 p-2 text-gray-700 flex items-centerjustify-between"
         onClick={handleToggle}
       >
         <div className="flex items-center">
@@ -39,7 +39,7 @@ const CustomDropdown = () => {
           />
           <span>{selected}</span>
         </div>
-        <span>&#9662;</span>
+        <span className="ml-2">&#9662;</span>
       </button>
       {isOpen && (
         <div className="absolute w-full mt-1 border border-gray-300 rounded-md bg-gray-100 z-10">
@@ -102,10 +102,10 @@ const ContactForm = () => {
 
         {/* Country and Phone Number Fields */}
         <div className="mb-4 flex items-center space-x-4">
-          <div className="w-1/2">
+          <div className="w-1/3">
             <CustomDropdown />
           </div>
-          <div className="w-1/2">
+          <div className="w-2/3">
             <input
               type="text"
               id="phone"
