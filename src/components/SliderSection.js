@@ -1,4 +1,3 @@
-// export default SliderSection;
 import React, { useState } from "react";
 import {
   FaArrowLeft,
